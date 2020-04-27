@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, #405d27, #b5e7a0);
+    color: white;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    min-height: 100vh;    
+}
+
+header {
+    font-size: 1.2rem;    
+}
+
+header, form {
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    background: white;
+}
+
+form button {
+    color: coral;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: coral;
+    color: white;    
+}
+
+.contenedor-articulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-compra {
+    min-width: 30%;
+    list-style: none;    
+}
+
+.articulo {
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articulo li {
+    flex: 1;
+}
+
+.tomado-btn, .sacar-btn {
+    background: coral;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
